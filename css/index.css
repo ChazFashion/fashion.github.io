@@ -1,0 +1,112 @@
+/* body{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+
+} */
+
+@font-face {
+    font-family: Rubik;
+    src: url(..fonts/Rubik-Regular.ttf);
+}
+
+{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container
+{
+
+    width: 1180px;
+    height: 100vh;
+    background-color: chartreuse;
+    margin: 0 auto;
+
+}
+
+.header
+{
+
+    width: 1180px;
+    height: 40;
+    background-color: azure;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.header_logo
+{
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.header_logo-p
+{
+
+    color: #333;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+
+.header_search
+{
+
+    width: 320px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px #333 solid;
+    margin-right: 32px;
+
+}
+
+.header_search:focus
+{
+
+    outline: none;
+    color: #333;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
+.header_search-btn
+{
+
+    background: none;
+    border: none;
+    color: #E5261E;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 500;
+
+
+}
+
+
+.header-login
+{
+
+    width: 113px;
+    height: 38px;
+    border: none;
+    border: ;
+
+}
